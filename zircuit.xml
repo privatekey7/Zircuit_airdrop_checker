@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BrowserAutomationStudioProject>
+     <Script><![CDATA[section(1 /*1*/,1 /*1*/,1 /*1*/,0,function(){
+   section_start("\u007b\u0022n\u0022:\u0022Initialize\u0022\u007d", 0)!
+
+   section_end()!
+
+   _call(_on_start, null)!
+
+   section_start("", 392256500)!
+   /*Dat:eyJzIjoicHJvamVjdF9kaXJlY3RvcnkiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IlNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IlBST0pFQ1RfRElSRUNUT1JZIn1dfQ==*/
+   VAR_PROJECT_DIRECTORY = project_directory();
+   section_end()!
+
+   section_start("", 909556396)!
+   /*Dat:eyJzIjoiUmVzb3VyY2VUb0FycmF5IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJSZXNvdXJjZU5hbWUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IndhbGxldHMifSx7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoid2FsbGV0cyJ9XX0=*/
+   VAR_WALLETS = RPick("wallets")
+   section_end()!
+
+   section_start("", 560108779)!
+   /*Dat:eyJzIjoicHJveHkiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IlByb3h5VGV4dCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoie3vQn9GA0L7QutGB0Lh9fSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlByb3h5VHlwZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiaHR0cCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlByb3h5TG9naW4iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlByb3h5UGFzc3dvcmQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoYW5nZVRpbWV6b25lIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ0cnVlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2hhbmdlR2VvbG9jYXRpb24iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ImZhbHNlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2hhbmdlV2VicnRjSXAiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InRydWUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDaGFuZ2VCcm93c2VyTGFuZ3VhZ2UiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InRydWUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJEZXRlY3RFeHRlcm5hbElwIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ0cnVlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiU2VydmljZVVSTCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiSXBFeHRyYWN0aW9uTWV0aG9kIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJyYXciLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJJcEV4dHJhY3Rpb25QYXJhbSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiSXBJbmZvTWV0aG9kIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJkYXRhYmFzZSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IklwQXBpS2V5IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJGdW5jdGlvbk5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiIifSx7ImlkIjoiVGFyZ2V0VXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIqIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiVGFyZ2V0VGFiTnVtYmVyIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIqIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+   RS("Прокси", false, false)!
+   RESOURCE_426383 = _result().get()
+   /*Browser*/
+   var hash = proxy_parse(RESOURCE_426383)
+   if("http" != "auto" ){
+   hash["IsHttp"] = "http" == "http"
+   }
+   var login = ""
+   var password = ""
+   if(login.length > 0 && password.length > 0 )
+   {
+   hash["name"] = login
+   hash["password"] = password
+   }
+   if(_get_profile().length > 0)
+   {
+   if(hash["server"].length == 0)
+   {
+   native("filesystem", "removefile", _get_profile() + "/proxy.txt")
+   }else
+   {
+   var PortNumber = hash["Port"]
+   hash["Port"] = hash["Port"].toString()
+   hash["DetectExternalIp"] = "true" == "true";
+   hash["ChangeGeolocation"] = "false" == "true";
+   hash["ChangeWebrtcIp"] = "true" == "true";
+   hash["ChangeTimezone"] = "true" == "true";
+   hash["ChangeBrowserLanguage"] = "true" == "true";
+   hash["ip_info_method"] = "database";
+   if(hash["ip_info_method"] == "custom function")
+   {
+   hash["ip_info_method"] = "database"
+   }
+   hash["ip_api_key"] = "";
+   hash["ServiceURL"] = "";
+   hash["IpExtractionParam"] = "";
+   hash["IpExtractionMethod"] = "raw";
+   native("filesystem", "writefile", JSON.stringify({path: _get_profile() + "/proxy.txt",value: JSON.stringify(hash),base64:false,append:false}))
+   hash["Port"] = PortNumber
+   }
+   }
+   set_proxy(hash["server"], hash["Port"], hash["IsHttp"], hash["name"], hash["password"])!
+   sleep(1000)!
+   set_proxy_extended("true" == "true", "false" == "true", "true" == "true", "true" == "true", "true" == "true", "database", "", null, "", "raw", "")!
+   sleep(1000)!
+   section_end()!
+
+   section_start("", 627124310)!
+   /*Dat:eyJzIjoiZm9yZWFjaCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiRm9yQXJyYXkiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbV0FMTEVUU11dIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+   _do_with_params({"foreach_data":(VAR_WALLETS)},function(){
+   _set_action_info({ name: "Foreach" });
+   VAR_CYCLE_INDEX = _iterator() - 1
+   if(VAR_CYCLE_INDEX > _cycle_param("foreach_data").length - 1)_break();
+   VAR_FOREACH_DATA = _cycle_param("foreach_data")[VAR_CYCLE_INDEX]
+   section_insert()
+      section_start("", 263047372)!
+      /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiTG9hZFVybCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiaHR0cHM6Ly9jbGFpbS56aXJjdWl0LmNvbS9hcGkvY2xhaW0vW1tGT1JFQUNIX0RBVEFdXSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlJlZmVycmVyIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+      _load("https://claim.zircuit.com/api/claim/" + VAR_FOREACH_DATA, "", false)!
+      section_end()!
+
+      section_start("", 871243852)!
+      /*Dat:eyJzIjoidGV4dCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiU2F2ZVRleHQiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IlNBVkVEX1RFWFQifV0sInAiOnsiaXNfaW1hZ2UiOmZhbHNlLCJjc3MiOiIgPkNTUz4gcHJlIiwidmVyc2lvbiI6IjEuMCIsImNzczEiOiIgPkNTUz4gcHJlIiwiY3NzMiI6IiIsImNzczMiOiIiLCJjdXJyZW50IjoiY3NzIiwibWF0Y2giOiI+TUFUQ0g+PHByZT57XCJjbGFpbWFibGVBbW91bnRcIjpcIjE0NDA1MzQ1NDc4ODAzNSIsInhwYXRoIjoiID5YUEFUSD4gL2h0bWxbMV0vYm9keVsxXS9wcmVbMV0iLCJhdCI6IjE4OSwgMzQiLCJ3ZSI6dHJ1ZSwiZmEiOnRydWV9fQ==*/
+      /*Browser*/
+      _SELECTOR = " \u003eCSS\u003e pre";
+      wait_element(_SELECTOR)!
+      get_element_selector(_SELECTOR, false).text()!
+      VAR_SAVED_TEXT = _result()
+      section_end()!
+
+      section_start("", 481149713)!
+      /*Dat:eyJzIjoiZ2V0X3N1YnN0cmluZ19iZXR3ZWVuIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJzdHJpbmciLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbU0FWRURfVEVYVF1dIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoibGVmdCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoie1wiY2xhaW1hYmxlQW1vdW50XCI6XCIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJyaWdodCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiXCJ9IiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiU1VCU1RSSU5HIn1dfQ==*/
+      VAR_SUBSTRING = _get_substring_between(VAR_SAVED_TEXT,"\u007b\u0022claimableAmount\u0022:\u0022","\u0022\u007d");
+      section_end()!
+
+      section_start("", 609344432)!
+      /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IlNldFZhcmlhYmxlTmFtZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoicmVzdWx0In0seyJpZCI6IlNldFZhcmlhYmxlVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbU1VCU1RSSU5HXV0gLyAxMDAwMDAwMDAwMDAwMDAwMDAwIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+      VAR_RESULT = VAR_SUBSTRING / 1000000000000000000
+      section_end()!
+
+      section_start("", 110459414)!
+      /*Dat:eyJzIjoiZmlsZXN5c3RlbV93cml0ZWZpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkZpbGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbUFJPSkVDVF9ESVJFQ1RPUlldXS9yZXN1bHQudHh0IiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbRk9SRUFDSF9EQVRBXV06IFtbUkVTVUxUXV0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDaGVjazMiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfSx7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
+      native("filesystem", "writefile", JSON.stringify({path: VAR_PROJECT_DIRECTORY + "/result.txt",value: (VAR_FOREACH_DATA + ": " + VAR_RESULT).toString() + "\r\n",base64:false,append:true}))
+      section_end()!
+
+      section_start("", 313003478)!
+      /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJMb2dUZXh0IiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0ZPUkVBQ0hfREFUQV1dOiBbW1JFU1VMVF1dIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+      log(VAR_FOREACH_DATA + ": " + VAR_RESULT)
+      section_end()!
+
+   })!
+   section_end()!
+
+})!]]></Script>
+     <ModuleInfo><![CDATA[{
+}
+]]></ModuleInfo>
+     <Modules/>
+     <EmbeddedData><![CDATA[[]]]></EmbeddedData>
+     <DatabaseId>Database.1760</DatabaseId>
+     <Schema></Schema>
+     <ConnectionIsRemote>false</ConnectionIsRemote>
+     <ConnectionServer></ConnectionServer>
+     <ConnectionPort></ConnectionPort>
+     <ConnectionLogin></ConnectionLogin>
+     <ConnectionPassword></ConnectionPassword>
+     <ScriptName>ScriptName</ScriptName>
+     <ProtectionStrength>4</ProtectionStrength>
+     <UnusedModules>InMail;JSON;URL;ClickCaptcha;PhoneVerification</UnusedModules>
+     <ScriptIcon>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</ScriptIcon>
+     <IsCustomIcon>false</IsCustomIcon>
+     <HideBrowsers>false</HideBrowsers>
+     <ShowAdvanced>false</ShowAdvanced>
+     <IntegrateScheduler>false</IntegrateScheduler>
+     <SingleInstance>false</SingleInstance>
+     <CopySilent>false</CopySilent>
+     <IsEnginesInAppData>false</IsEnginesInAppData>
+     <CompileType>NoProtection</CompileType>
+     <ScriptVersion>1.0.0</ScriptVersion>
+     <AvailableLanguages>en,ru</AvailableLanguages>
+     <EngineVersion>27.6.2</EngineVersion>
+     <SettingsWorker>EnableWidevine=true
+EnableSafeBrowsing=true
+EnableVariations=true
+EnableComponents=true
+AutostartDebug=false
+SaveBrowserLog=false
+ProfilesCaching=true
+ToolboxHeight=300
+MaxBrowserStartSimultaneously=3
+MinFreeMemoryToStartBrowser=1500
+MinUnusedCpu=35
+ScenarioWidth=500
+Zoom=100
+IsMaximized=true
+Restart=true
+UseHumanLikeMouseMoves=true
+DebugToolbox=false
+DebugScenario=false
+Languages=&quot;&quot;
+Modules=&quot;&quot;
+Helper=&quot;disable&quot;
+Canvas=&quot;enable&quot;
+CanvasNoise=&quot;&quot;
+Audio=&quot;enable&quot;
+QUIC=&quot;enable&quot;
+AudioNoise=&quot;&quot;
+MaxFPS=30
+Webrtc=&quot;enable&quot;
+WebrtcIps=&quot;&quot;
+Webgl=&quot;enable&quot;
+WebglNoise=&quot;&quot;
+WebglRenderer=&quot;&quot;
+WebglVendor=&quot;&quot;
+Detector=false
+</SettingsWorker>
+     <ChromeCommandLine>--disk-cache-size=1
+--disable-gpu-program-cache
+--disable-gpu-shader-disk-cache
+--disable-features=GpuProcessHighPriorityWin,GpuUseDisplayThreadPriority
+--lang=en
+--disable-auto-reload</ChromeCommandLine>
+     <ModulesMetaJson>{
+    &quot;Archive&quot;: false,
+    &quot;FTP&quot;: false,
+    &quot;Excel&quot;: false,
+    &quot;SQL&quot;: false,
+    &quot;ReCaptcha&quot;: false,
+    &quot;FunCaptcha&quot;: false,
+    &quot;HCaptcha&quot;: false,
+    &quot;SmsReceive&quot;: false,
+    &quot;Checksum&quot;: false,
+    &quot;MailDeprecated&quot;: false
+}
+</ModulesMetaJson>
+     <InterfaceState>{&quot;variables&quot;:{&quot;sortings&quot;:[{&quot;name&quot;:&quot;frequency&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateModified&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateCreated&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;alphabetically&quot;,&quot;active&quot;:true}],&quot;filters&quot;:[{&quot;name&quot;:&quot;undefined&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;boolean&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;object&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;string&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;number&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;array&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;date&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;null&quot;,&quot;active&quot;:true}],&quot;options&quot;:[{&quot;name&quot;:&quot;groups&quot;,&quot;active&quot;:false}],&quot;groups&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Main&quot;,&quot;color&quot;:&quot;brown&quot;,&quot;expanded&quot;:true,&quot;items&quot;:[{&quot;key&quot;:&quot;CYCLE_INDEX&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FOREACH_DATA&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PROJECT_DIRECTORY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;RESULT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SAVED_TEXT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SUBSTRING&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;WALLETS&quot;,&quot;fixed&quot;:false}]}],&quot;nodes&quot;:{&quot;[\&quot;WALLETS\&quot;]&quot;:false}},&quot;resources&quot;:{&quot;sortings&quot;:[],&quot;filters&quot;:[],&quot;options&quot;:[],&quot;groups&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Main&quot;,&quot;color&quot;:&quot;brown&quot;,&quot;expanded&quot;:true,&quot;items&quot;:[{&quot;key&quot;:&quot;wallets&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;Прокси&quot;,&quot;fixed&quot;:false}]}],&quot;nodes&quot;:{}},&quot;callstack&quot;:{&quot;filters&quot;:[]}}</InterfaceState>
+     <OutputTitle1 ru="First Results" en="First Results"/>
+     <OutputTitle2 ru="Second Results" en="Second Results"/>
+     <OutputTitle3 ru="Third Results" en="Third Results"/>
+     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
+     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
+     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
+     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
+     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
+     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
+     <OutputVisible1>1</OutputVisible1>
+     <OutputVisible2>1</OutputVisible2>
+     <OutputVisible3>1</OutputVisible3>
+     <OutputVisible4>0</OutputVisible4>
+     <OutputVisible5>0</OutputVisible5>
+     <OutputVisible6>0</OutputVisible6>
+     <OutputVisible7>0</OutputVisible7>
+     <OutputVisible8>0</OutputVisible8>
+     <OutputVisible9>0</OutputVisible9>
+     <ModelList>
+          <Model>
+               <Name>wallets</Name>
+               <Description ru="wallets" en="wallets"/>
+               <SectionName ru=""/>
+               <HintVisible>0</HintVisible>
+               <Hint ru="" en=""/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>LinesFromFile</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>LinesFromFile</AllowedTypes>
+               <Filename></Filename>
+               <Clean>0</Clean>
+               <Read>1</Read>
+               <Mix>0</Mix>
+               <MaxSuccess>1</MaxSuccess>
+               <MaxFail>1</MaxFail>
+               <MaxSimultaneous>1</MaxSimultaneous>
+               <Interval>5000</Interval>
+               <ReloadInterval>0</ReloadInterval>
+               <RenewInterval>-1</RenewInterval>
+               <Greedy>0</Greedy>
+          </Model>
+          <Defaults/>
+          <Model>
+               <Name>Прокси</Name>
+               <Description ru="Прокси" en="Прокси"/>
+               <SectionName ru=""/>
+               <HintVisible>1</HintVisible>
+               <Hint ru="РФ в бане, одной прокси хватит на все акки, формат IP:PORT:LOGIN:PASS" en=""/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>FixedString</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedString</AllowedTypes>
+               <Value></Value>
+               <NotEmpty>1</NotEmpty>
+               <MultiLine>0</MultiLine>
+               <Rows>3</Rows>
+          </Model>
+          <Defaults/>
+     </ModelList>
+</BrowserAutomationStudioProject>
